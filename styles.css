@@ -1,4 +1,4 @@
-/** {
+/* {
    outline: 2px solid red;
 }*/
 
@@ -141,7 +141,7 @@ nav ul li a {
 }
 
 .product-card h2 {
-    font-size: 2rem;
+    font-size: 22px;
     margin: 1rem 0 0.5rem;
 }
 
@@ -157,6 +157,13 @@ nav ul li a {
     font-size: 20px;
     text-align: center;
     margin: 50px;
+}
+
+.filter-section-title {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
 }
 
 .testimonials {
@@ -181,7 +188,7 @@ nav ul li a {
 #myBtnContainer {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 30px 0px;
 }
 
 .btn {
@@ -199,11 +206,11 @@ nav ul li a {
 }
   
 .btn:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 200, 249);
 }
   
 .btn.active {
-    background-color: #666;
+    background-color: rgb(255, 163, 244);
     color: white;
 }
 
