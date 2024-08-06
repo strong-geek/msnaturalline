@@ -216,6 +216,20 @@ nav ul li a {
 
 /* Adjustments for smaller screens */
 @media (max-width: 1024px) {
+    .about-us {
+
+    }
+
+    .about-us p {
+        font-size: 1rem;
+        width: 300px;
+        height: auto;
+    }
+
+    .about-us img {
+        size: 300px;
+    }
+
     .hero {
         height: 50vh;
     }
