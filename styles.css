@@ -60,6 +60,8 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
 }
 
 .about-us {
@@ -86,10 +88,10 @@ nav ul li a {
 }
 
 .button {
-    background-color: rgb(255, 200, 249);
+    background: rgb(59, 29, 62);
     border: none;
-    border-radius: 20px;
-    color: black;
+    border-radius: 42px;
+    color: white;
     padding: 10px 22px;
     text-align: center;
     text-decoration: none;
@@ -100,7 +102,7 @@ nav ul li a {
 }
 
 .button:hover {
-    background-color: rgb(255, 163, 244);
+    background-color: rgb(85, 41, 88);
 }
 
 .contact-information {
