@@ -92,7 +92,7 @@ nav ul li a {
 .about-us img {
     padding: 10px;
     border-radius: 15px;
-    width: 727px;
+    width: 700px;
     height: 404px;
 }
 
@@ -164,6 +164,7 @@ nav ul li a {
 }
 
 .product-card img {
+    border-radius: 15px;
     max-width: 100%;
     height: auto;
     width: 300px;
@@ -180,6 +181,17 @@ nav ul li a {
     color: #555;
     align-items: center;
     text-align: center;
+}
+
+.products-title h2 {
+    display: block;
+    font-size: 48px;
+    font-weight: 200;
+    font-family: 'NanumMyeongjo';
+    line-height: 55px;
+    letter-spacing: 4%;
+    text-align: center;
+    margin: 50px;
 }
 
 .testimonial-title h2 {
