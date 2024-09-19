@@ -210,7 +210,7 @@ nav ul li a {
     line-height: 55px;
     letter-spacing: 4%;
     text-align: center;
-    margin: 50px;
+    margin-bottom: 150px;
 }
 
 .filter-section-title {
@@ -222,6 +222,7 @@ nav ul li a {
 
 .testimonials-container {
     background-color: rgb(245, 245, 245);
+    padding: 80px;
 }
 
 .testimonials-section {
