@@ -69,6 +69,12 @@ nav ul li a {
     display: flex;
     gap: 50px;
     justify-content: center;
+    margin: 50px;
+}
+
+.about-us a {
+    width: 214px;
+    font-weight: 600;
 }
 
 .about-us h1 {
@@ -85,6 +91,18 @@ nav ul li a {
 
 .about-us img {
     padding: 10px;
+    border-radius: 15px;
+    width: 727px;
+    height: 404px;
+}
+
+.about-us-title {
+    display: block;
+    color: rgb(64, 64, 64);
+    font-size: 48px;
+    font-family: 'NanumMyeongjo';
+    line-height: 55px;
+    text-align: left;
 }
 
 .button {
@@ -164,7 +182,7 @@ nav ul li a {
     text-align: center;
 }
 
-.section-title h2 {
+.testimonial-title h2 {
     display: block;
     font-size: 48px;
     font-weight: 200;
