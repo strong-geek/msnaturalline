@@ -209,7 +209,7 @@ nav ul li a {
     font-family: 'NanumMyeongjo';
     line-height: 55px;
     text-align: center;
-    margin-bottom: 125px;
+    margin-bottom: 20px;
 }
 
 .filter-section-title {
@@ -227,7 +227,13 @@ nav ul li a {
 .testimonials-section {
     background: rgb(245, 245, 245);
     display: flex;
+    gap: 50px;
     margin: 0 300px;
+}
+
+.testimonial-section img {
+    width: 426px;
+    height: auto;
 }
 
 .testimonial {
