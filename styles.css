@@ -131,7 +131,7 @@ nav ul li a {
     position: relative;
     text-align: left;
     color: black;
-    background-image: url('./images/Heroes/front-page-half-hero-2.png');
+    background-image: url('./images/Heroes/front-page-half-hero-placeholder.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -226,7 +226,7 @@ nav ul li a {
 
 .testimonials-section {
     background: rgb(245, 245, 245);
-    display: block;
+    display: flex;
     margin: 0 300px;
 }
 
@@ -244,6 +244,10 @@ nav ul li a {
     content: "";
     clear: both;
     display: table;
+}
+
+.testimonial-items {
+    display: block;
 }
   
 .testimonial img {
