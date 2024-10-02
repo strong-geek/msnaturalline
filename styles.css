@@ -253,6 +253,12 @@ nav ul li a {
     display: block;
 }
 
+.stay-informed {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .testimonial {
     background: rgb(255, 255, 255);
     border-radius: 15px;
