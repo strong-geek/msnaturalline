@@ -264,6 +264,21 @@ nav ul li a {
     padding: 1rem;
 }
 
+.products-hero {
+    align-items: center;
+    box-shadow: 0px 11px 20px -7px rgba(0, 0, 0, 0.25);
+    background-image: url('./images/Heroes/front-page-half-hero-placeholder.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+}
+
 .products-title h2 {
     display: block;
     font-family: 'NanumMyeongjo';
@@ -277,6 +292,16 @@ nav ul li a {
 
 .show {
     display: block;
+}
+
+.socials{
+    display: flex;
+    gap: 10px;
+}
+
+.socials img {
+    height: 40px;
+    width: 40px;
 }
 
 .stay-informed {
