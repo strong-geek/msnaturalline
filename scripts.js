@@ -65,3 +65,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//Submit email form when user presses enter
+var input = document.getElementById("email");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("submit").click();
+  }
+});
