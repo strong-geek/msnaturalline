@@ -583,7 +583,7 @@ nav ul li a {
 /* 2560px - Large Desktops (4K Screens) */
 @media (min-width: 1441px) and (max-width: 2560px) {
     .hero {
-        height: 80vh;
+        height: 70vh;
     }
 
     .hero h1 {
