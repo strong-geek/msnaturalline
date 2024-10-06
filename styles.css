@@ -231,6 +231,7 @@ nav ul li a {
 .product-card {
     padding: 1rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .product-card h2 {
@@ -429,26 +430,80 @@ nav ul li a {
     z-index: 99;
 }
 
-/*#toTopButton:hover {
-    background-color: #555;
-}*/
 
-/* Adjustments for smaller screens */
-@media (max-width: 1024px) {
-    /*.about-us {
+/* Media Queries for Responsiveness */
 
-    }*/
+/* 320px - Small Mobile Devices */
+@media (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
 
-    .about-us p {
-        font-size: 1rem;
+    .hero {
+        height: 30vh;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .product-card img {
+        width: 100%;
         height: auto;
-        width: 300px;
+    }
+
+    .products-front {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .button {
+        padding: 5px 10px;
+    }
+}
+
+/* 375px - Larger Mobile Devices */
+@media (max-width: 375px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .products-front {
+        grid-template-columns: 1fr;
     }
 
     .about-us img {
-        size: 300px;
+        width: 100%;
+        height: auto;
     }
 
+    .about-us p {
+        font-size: 0.9rem;
+    }
+}
+
+/* 425px - Large Mobile Devices */
+@media (max-width: 425px) {
+    .hero {
+        height: 35vh;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .product-card h2 {
+        font-size: 1.2rem;
+    }
+
+    .about-us p {
+        font-size: 1rem;
+    }
+}
+
+/* 768px - Tablets */
+@media (max-width: 768px) {
     .hero {
         height: 50vh;
     }
@@ -457,122 +512,95 @@ nav ul li a {
         font-size: 2.5rem;
     }
 
-    .hero p {
-        font-size: 1.2rem;
+    .products-front {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 
-    .products {
-        grid-template-columns: repeat(2, 1fr);
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us img {
+        width: 80%;
+    }
+
+    .about-us p {
+        font-size: 1.2rem;
+    }
+}
+
+/* 1024px - Small Laptops */
+@media (max-width: 1024px) {
+    .hero {
+        height: 60vh;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .products-front {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .about-us {
+        margin: 0 20px;
+    }
+
+    .about-us p {
+        font-size: 1.3rem;
+    }
+}
+
+/* 1440px - Desktops */
+@media (max-width: 1440px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .products-front {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        margin: 0 150px;
+    }
+
+    .about-us {
+        margin: 0 150px;
+    }
+
+    .about-us p {
+        font-size: 1.4rem;
+    }
+}
+
+/* 2560px - Large Desktops (4K Screens) */
+@media (min-width: 1441px) and (max-width: 2560px) {
+    .hero {
+        height: 80vh;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .products-front {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
         margin: 0 200px;
     }
-}
 
-@media (max-width: 768px) {
     .about-us {
-        margin: 0;
+        margin: 0 200px;
     }
 
-    .hero {
-        height: 40vh;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero p {
-        font-size: 1.2rem;
-    }
-
-    .products {
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 100px;
-    }
-
-    .testimonials-container {
-        margin: 0;
-    }
-}
-
-@media (max-width: 571px) {
-    .about-us {
-        margin: 0;
-    }
-
-    .header{
-        padding: 0;
-    }
-
-    .hero {
-        height: 40vh;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero p {
-        font-size: 1.2rem;
-    }
-
-    .products {
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0;
-    }
-
-    .testimonial {
-        text-align: center;
-    }
-
-    .testimonial img {
-        display: block;
-        float: none;
-        margin: auto;
-    }
-
-    .testimonials-container {
-        margin: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero {
-        height: 40vh;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-    
-    .products {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 320px) {
-    .header {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .hero {
-        height: 30vh;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-    
-    .products {
-        grid-template-columns: 1fr;
-        margin: 0;
+    .about-us p {
+        font-size: 1.6rem;
     }
 }
