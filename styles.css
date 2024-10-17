@@ -13,14 +13,14 @@ body {
 .about-us {
     align-items: center;
     display: flex;
-    gap: 50px;
+    gap: 3.125rem;
     justify-content: center;
-    margin: 50px;
+    padding: 3.125rem;
 }
 
 .about-us a {
     font-weight: 600;
-    width: 214px;
+    width: 13.375rem;
 }
 
 .about-us h1 {
@@ -29,25 +29,25 @@ body {
 
 .about-us img {
     border-radius: 15px;
-    height: 404px;
-    padding: 10px;
-    width: 700px;
+    height: 25.25rem;
+    padding: 0.625rem;
+    width: 43.75rem;
 }
 
 .about-us p {
     font-size: 1.5rem;
     height: auto;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: left;
-    width: 612px;
+    width: 38.25rem;
 }
 
 .about-us-title {
     color: rgb(64, 64, 64);
     display: block;
     font-family: 'NanumMyeongjo';
-    font-size: 48px;
-    line-height: 55px;
+    font-size: 3rem;
+    line-height: 3.4rem;
     text-align: left;
 }
 
@@ -58,10 +58,10 @@ body {
     cursor: pointer;
     display: inline-block;
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
-    margin: 4px 20px;
-    padding: 10px 22px;
+    margin: .25rem 1.25rem;
+    padding: 0.625rem 1.375rem;
     text-align: center;
     text-decoration: none;
 }
@@ -85,9 +85,9 @@ body {
     cursor: pointer;
     display: inline-block;
     font-family: 'Montserrat';
-    font-size: 16px;
-    margin: 4px 2px;
-    padding: 10px 22px;
+    font-size: 1rem;
+    margin: 0.25rem 0.13rem;
+    padding: 0.625rem 1.375rem;
     text-align: center;
     text-decoration: none;
 }
@@ -601,6 +601,6 @@ nav ul li a {
     }
 
     .about-us p {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 }
