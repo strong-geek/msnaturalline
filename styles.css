@@ -552,10 +552,6 @@ nav ul li a {
         gap: 1rem;
     }
 
-    .about-us {
-        margin: 0 20px;
-    }
-
     .about-us p {
         font-size: 1.3rem;
     }
@@ -577,10 +573,6 @@ nav ul li a {
         margin: 0 150px;
     }
 
-    .about-us {
-        margin: 0 150px;
-    }
-
     .about-us p {
         font-size: 1.4rem;
     }
@@ -599,10 +591,6 @@ nav ul li a {
     .products-front {
         grid-template-columns: repeat(4, 1fr);
         gap: 3rem;
-        margin: 0 200px;
-    }
-
-    .about-us {
         margin: 0 200px;
     }
 
