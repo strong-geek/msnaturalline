@@ -351,8 +351,8 @@ nav ul li a {
     box-shadow: 0px 11px 20px -7px rgba(0, 0, 0, 0.25);
     height: 200px;
     margin-top: 70px;
-    padding: 40px 85px;
-    width: 400px;
+    padding: 3rem 5.3rem;
+    width: 25rem;
 }
 
 .testimonial img {
@@ -534,6 +534,10 @@ nav ul li a {
     .about-us p {
         font-size: 1.2rem;
     }
+
+    .testimonials-section img {
+        display: none;
+    }
 }
 
 /* 1024px - Small Laptops */
@@ -552,8 +556,31 @@ nav ul li a {
         gap: 1rem;
     }
 
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .about-us p {
         font-size: 1.3rem;
+        text-align: center;
+        width: 43.5rem;
+    }
+
+    .about-us-title {
+        text-align: center;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .stay-informed {
+        padding: 1.3rem;
+    }
+
+    .testimonial {
+        padding: 3rem 3.13rem;
     }
 }
 
