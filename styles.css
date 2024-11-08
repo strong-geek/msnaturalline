@@ -199,6 +199,13 @@ header {
     font-size: 1.5rem;
 }
 
+#Iframe {
+    border: 0;
+    border-radius: 15px;
+    height: 320px;
+    width: 654px;
+}
+
 .logo {
     margin-left: 5rem;
     padding: 20px;
