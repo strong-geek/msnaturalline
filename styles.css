@@ -202,8 +202,8 @@ header {
 #Iframe {
     border: 0;
     border-radius: 15px;
-    height: 320px;
-    width: 654px;
+    height: 20rem;
+    width: 40rem;
 }
 
 .logo {
@@ -466,12 +466,16 @@ nav ul li a {
 
     .products-front {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
 
     .button {
         padding: 5px 10px;
+    }
+
+    .testimonials-section #aciete-de-coco {
+        display: none;
     }
 }
 
@@ -493,6 +497,10 @@ nav ul li a {
     .about-us p {
         font-size: 0.9rem;
     }
+
+    .testimonials-section #aciete-de-coco {
+        display: none;
+    }
 }
 
 /* 425px - Large Mobile Devices */
@@ -511,6 +519,10 @@ nav ul li a {
 
     .about-us p {
         font-size: 1rem;
+    }
+
+    .testimonials-section #aciete-de-coco {
+        display: none;
     }
 }
 
