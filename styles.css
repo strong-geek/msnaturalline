@@ -486,7 +486,8 @@ nav ul li a {
     }
 
     .products-front {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about-us img {
@@ -517,6 +518,13 @@ nav ul li a {
         font-size: 1.2rem;
     }
 
+    .products-front {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        margin: 0;
+    }
+
     .about-us p {
         font-size: 1rem;
     }
@@ -537,6 +545,7 @@ nav ul li a {
     }
 
     .products-front {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
     }
@@ -571,7 +580,7 @@ nav ul li a {
 
     .products-front {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
 
@@ -614,6 +623,7 @@ nav ul li a {
     }
 
     .products-front {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2.5rem;
         margin: 0 150px;
