@@ -1,9 +1,9 @@
-* {
+/* {
    outline: 2px solid red;
-}*
+}*/
 
 body {
-    outline: 2px solid red;
+    /*outline: 2px solid red;*/
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     font-family: "Montserratt", Arial, sans-serif;
@@ -281,7 +281,7 @@ nav ul li a {
 .products-front {
     display: flex;
     gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: repeat(3, 1fr);*/
     margin: 0 200px;
     padding: 1rem;
 }
